@@ -32,6 +32,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
 *,
 *:before,
 *:after {
@@ -45,6 +49,39 @@ html {
   font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
 }
 
+.top-block {
+  background-image: url(/Rectangle5.2.624c67d0.png);
+  background-size: cover;
+  height: 540px;
+}
+.top-block__content {
+  color: #fff;
+}
+.top-block__header {
+  font-weight: 700;
+  font-size: 42px;
+}
+.top-block__info {
+  font-weight: 400;
+  font-size: 16px;
+}
+.top-block__other {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+.top-block .button {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207px;
+  height: 60px;
+  background-color: #8abf42;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .menu {
   position: fixed;
   width: 8.33vw;
@@ -56,8 +93,6 @@ html {
 
 .header {
   height: 100px;
-  background-color: slategrey;
-  border: 1px solid green;
   display: flex;
 }
 .header__row {
@@ -87,9 +122,6 @@ html {
 }
 .main {
   position: relative;
-}
-.main__content {
-  border: 1px solid blue;
 }
 .main__content-start {
   font-weight: 700;

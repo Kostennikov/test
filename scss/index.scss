@@ -6,7 +6,9 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+a {
+    text-decoration: none;
+}
 *,
 *:before,
 *:after {
@@ -19,6 +21,38 @@ html {
     position: relative;
     font-family: $SansPro;
 }
+.top-block {
+    background-image: url(/images/Rectangle5.2.png);
+    background-size: cover;
+    height: 540px;
+    &__content {
+        color: #fff;
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+    }
+    &__info {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    &__other {
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+    .button {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 207px;
+        height: 60px;
+        background-color: #8abf42;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
 .menu {
     position: fixed;
     width: 8.33vw;
@@ -29,41 +63,35 @@ html {
 }
 .header {
     height: 100px;
-    background-color: slategrey;
-    border: 1px solid green;
     display: flex;
-    &__row{
+    &__row {
         height: 100%;
     }
-    &__logo{
-        
-    }
+
     &__phone {
         margin-right: 2.625em;
         font-weight: 700;
         font-size: 1.125em;
     }
-    &__numbers{
+    &__numbers {
         color: #fff;
     }
     &__phone-second {
-        margin-right: .6875em;
+        margin-right: 0.6875em;
         font-weight: 700;
         font-size: 1.125em;
     }
     &__info {
-        
         font-weight: 400;
-        font-size: .875em;
+        font-size: 0.875em;
     }
-    &__city{
+    &__city {
         color: #fff;
         font-weight: 600;
         font-size: 1.125em;
     }
     &__geo,
     &__search {
-        
     }
 }
 
@@ -71,7 +99,7 @@ html {
     position: relative;
 
     &__content {
-        border: 1px solid blue;
+       
         &-start {
             font-weight: 700;
             font-size: 26px;
@@ -86,5 +114,4 @@ html {
             font-size: 1.125em;
         }
     }
-    
 }
