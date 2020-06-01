@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../Users/79205/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/79205/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\projects\\test\\test\\fonts\\SourceSansPro-Light.ttf":[["SourceSansPro-Light.d9915181.ttf","fonts/SourceSansPro-Light.ttf"],"fonts/SourceSansPro-Light.ttf"],"C:\\projects\\test\\test\\fonts\\SourceSansPro-Regular.ttf":[["SourceSansPro-Regular.8fdb045b.ttf","fonts/SourceSansPro-Regular.ttf"],"fonts/SourceSansPro-Regular.ttf"],"C:\\projects\\test\\test\\fonts\\SourceSansPro-SemiBold.ttf":[["SourceSansPro-SemiBold.9c5a5f83.ttf","fonts/SourceSansPro-SemiBold.ttf"],"fonts/SourceSansPro-SemiBold.ttf"],"C:\\projects\\test\\test\\fonts\\SourceSansPro-Bold.ttf":[["SourceSansPro-Bold.da21c9a3.ttf","fonts/SourceSansPro-Bold.ttf"],"fonts/SourceSansPro-Bold.ttf"],"_css_loader":"../../../Users/79205/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../Users/79205/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51975" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63228" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

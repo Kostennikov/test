@@ -1,4 +1,4 @@
-$path: 'C:\projects\test\test\fonts';
+$path: '/fonts/';
 
 $SansPro: "SourceSansPro",
 Helvetica,
@@ -11,18 +11,20 @@ sans-serif;
 
     @font-face {
         font-family: $name;
-        src: url($source + '.eot');
-        src: url($source + '.eot?#iefix') format('embedded-opentype'),
-            url($source + '.woff2') format('woff2'),
-            url($source + '.woff') format('woff'),
-            url($source + '.ttf') format('truetype');
+        src: url($source + '.ttf') format('truetype');
+       
+            
         font-weight: $weight;
         font-style: $style;
+        // src: url($source + '.eot?#iefix') format('embedded-opentype'),
+        //     url($source + '.woff2') format('woff2'),
+        //     url($source + '.woff') format('woff'),
+        //     url($source + '.ttf') format('truetype');
     }
 }
 
 
-@include fontFace('SourceSansPro', 'SourceSansPro', 300, normal);
-@include fontFace('SourceSansPro', 'SourceSansPro', 400, normal);
-@include fontFace('SourceSansPro', 'SourceSansPro', 600, normal);
-@include fontFace('SourceSansPro', 'SourceSansPro', 700, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro-Light', 300, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro-Regular', 400, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro-SemiBold', 600, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro-Bold', 700, normal);
