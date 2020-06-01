@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.main {
+  background-color: yellow;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("C:projectstesttest\fontsSourceSansPro.eot");
+  src: url("C:projectstesttest\fontsSourceSansPro.eot?#iefix") format("embedded-opentype"), url("C:projectstesttest\fontsSourceSansPro.woff2") format("woff2"), url("C:projectstesttest\fontsSourceSansPro.woff") format("woff"), url("C:projectstesttest\fontsSourceSansPro.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("C:projectstesttest\fontsSourceSansPro.eot");
+  src: url("C:projectstesttest\fontsSourceSansPro.eot?#iefix") format("embedded-opentype"), url("C:projectstesttest\fontsSourceSansPro.woff2") format("woff2"), url("C:projectstesttest\fontsSourceSansPro.woff") format("woff"), url("C:projectstesttest\fontsSourceSansPro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("C:projectstesttest\fontsSourceSansPro.eot");
+  src: url("C:projectstesttest\fontsSourceSansPro.eot?#iefix") format("embedded-opentype"), url("C:projectstesttest\fontsSourceSansPro.woff2") format("woff2"), url("C:projectstesttest\fontsSourceSansPro.woff") format("woff"), url("C:projectstesttest\fontsSourceSansPro.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("C:projectstesttest\fontsSourceSansPro.eot");
+  src: url("C:projectstesttest\fontsSourceSansPro.eot?#iefix") format("embedded-opentype"), url("C:projectstesttest\fontsSourceSansPro.woff2") format("woff2"), url("C:projectstesttest\fontsSourceSansPro.woff") format("woff"), url("C:projectstesttest\fontsSourceSansPro.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.page {
+  position: relative;
+  font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  height: 100px;
+  background-color: slategrey;
+  border: 1px solid green;
+}
+.header__logo {
+  margin-top: 1.75em;
+}
+.header__phone {
+  margin-right: 2.625em;
+  font-weight: 700;
+  font-size: 1.125em;
+}
+.header__numbers {
+  margin-top: 2.625em;
+}
+.header__phone-second {
+  margin-right: 0.6875em;
+  font-weight: 700;
+  font-size: 1.125em;
+}
+.header__info {
+  font-weight: 400;
+  font-size: 0, 875‬em;
+}
+.main {
+  position: relative;
+}
+.main__content {
+  border: 1px solid blue;
+}
+.main__content-start {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.main__content-text {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.main__content-end {
+  font-weight: 300;
+  font-size: 1.125em;
+}
+.main .menu {
+  position: fixed;
+  height: 100%;
+  margin-top: -100px;
+  background-color: #e0e0e0;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=/test.e31bb0bc.css.map */

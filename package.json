@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kostennikov/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kostennikov/test/issues"
+  },
+  "homepage": "https://github.com/Kostennikov/test#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "sass": "^1.26.5",
+    "scss": "^0.2.4"
+  }
+}

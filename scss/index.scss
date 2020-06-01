@@ -1,0 +1,79 @@
+@import "colors.scss";
+@import "fonts.scss";
+html {
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.page {
+    position: relative;
+    font-family: $SansPro;
+}
+
+.header {
+    height: 100px;
+    background-color: slategrey;
+    border: 1px solid green;
+    &__logo{
+        margin-top: 1.75em;
+    }
+    &__phone {
+        margin-right: 2.625em;
+        font-weight: 700;
+        font-size: 1.125em;
+    }
+    &__numbers{
+        margin-top: 2.625em;
+    }
+    &__phone-second {
+        margin-right: .6875em;
+        font-weight: 700;
+        font-size: 1.125em;
+    }
+    &__info {
+        font-weight: 400;
+        font-size: 0, 875‬em;
+    }
+    &__logo,
+    &__geo,
+    &__search {
+    }
+}
+
+.main {
+    position: relative;
+
+    &__content {
+        border: 1px solid blue;
+        &-start {
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+        &-text {
+            font-weight: 300;
+            font-size: 1.5em;
+        }
+
+        &-end {
+            font-weight: 300;
+            font-size: 1.125em;
+        }
+    }
+    .menu {
+        position: fixed;
+        height: 100%;
+        margin-top: -100px;
+        background-color: #e0e0e0;
+        z-index: 1;
+    }
+}

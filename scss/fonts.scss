@@ -1,0 +1,28 @@
+$path: 'C:\projects\test\test\fonts';
+
+$SansPro: "SourceSansPro",
+Helvetica,
+Arial,
+sans-serif;
+
+
+@mixin fontFace($name, $src, $weight, $style) {
+    $source: $path+$src;
+
+    @font-face {
+        font-family: $name;
+        src: url($source + '.eot');
+        src: url($source + '.eot?#iefix') format('embedded-opentype'),
+            url($source + '.woff2') format('woff2'),
+            url($source + '.woff') format('woff'),
+            url($source + '.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+
+@include fontFace('SourceSansPro', 'SourceSansPro', 300, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro', 400, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro', 600, normal);
+@include fontFace('SourceSansPro', 'SourceSansPro', 700, normal);
