@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST</title>
     <link rel="stylesheet" href="scss/index.scss">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="scss/bootstrap-grid.min.css">
 </head>
 
 <body class="page">
@@ -17,10 +17,11 @@
                 <div class="row align-items-center header__row">
 
                     <div class="col-2 col-2 offset-1">
-                        <svg class="header__logo" width="128" height="44" viewBox="0 0 128 44">
-                            <use href="images/sprites.svg#logo"></use>
-                        </svg>
-                        
+                        <div class="header__logo">
+                            <svg class="header__logo--icon" width="128" height="44" viewBox="0 0 128 44">
+                                <use href="images/sprites.svg#logo"></use>
+                            </svg>
+                        </div>
                     </div>
                     <div class="col-6">
                         <div class="header__numbers">
@@ -30,15 +31,19 @@
                         </div>
                     </div>
                     <div class="col-2">
-                        <svg class="header__geo" width="17" height="24" viewBox="0 0 17 24">
-                            <use href="images/sprites.svg#geo"></use>
-                        </svg>
-                        <span class="header__city">Москва</span>
+                        <div class="header__geo">
+                            <svg class="header__geo--icon" width="17" height="24" viewBox="0 0 17 24">
+                                <use href="images/sprites.svg#geo"></use>
+                            </svg>
+                            <span class="header__city">Москва</span>
+                        </div>
                     </div>
                     <div class="col-1">
-                        <svg class="header__search" width="23" height="22" viewBox="0 0 23 22">
-                            <use href="images/sprites.svg#search"></use>
-                        </svg>
+                        <div class="header__search">
+                            <svg class="header__search--icon" width="23" height="22" viewBox="0 0 23 22">
+                                <use href="images/sprites.svg#search"></use>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,10 +58,10 @@
                     <p class="top-block__other">Тренинг по программе достижения нулевого травматизма Vision Zero прошел
                         в АО «Р-Фарм» и ООО
                         «Леруа Мерлен Восток»</p>
-                    <a href="#">
-                        <div class="button">
-                            Подробнее
-                        </div>
+                    <a class="link" href="#">
+
+                        Подробнее
+
                     </a>
                 </div>
             </div>
@@ -75,7 +80,7 @@
                     <p class="main__content-end">Успешно работаем по всей территории России и СНГ с 1997 года</p>
                 </div>
             </div>
-            
+
 
 
 
