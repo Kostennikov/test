@@ -25,6 +25,30 @@ a {
 .text-up {
     text-transform: uppercase;
 }
+.global-header {
+    font-weight: 700;
+    font-size: 2em;
+}
+.link-white {
+    display: inline-block;
+    color: #000;
+    padding: 17px 51px;
+    height: 60px;
+    border: 1px solid #88bf1f;
+    font-weight: 400;
+    font-size: 18px;
+}
+.link-green {
+    display: inline-block;
+    border: 0px;
+    color: #fff;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 17px 51px;
+    background-color: #8abf42;
+}
+
 // .top-block::after{
 //         content: '';
 //         width: 100%;
@@ -47,6 +71,16 @@ a {
     &__info {
         font-weight: 400;
         font-size: 16px;
+        margin-right: 13px;
+        &:after {
+            content: "";
+            display: inline-block;
+            margin-left: 13px;
+            height: 10px;
+            width: 1px;
+             background-color: #fff;
+           
+        }
     }
     &__other {
         font-weight: 600;
@@ -54,19 +88,15 @@ a {
         margin-bottom: 70px;
     }
 
-    .link-more {
+    .link-top {
         color: #fff;
-        padding: 17px 55px 0px 55px;
+        padding: 17px 55px;
 
         background-color: #8abf42;
     }
 }
 
-.top-block:after {
-    height: 540px;
-    background-color: #525252;
-    opacity: 1;
-}
+
 .menu {
     position: fixed;
     width: 8.33vw;
@@ -94,13 +124,13 @@ a {
         align-items: center;
         justify-content: flex-end;
 
-        .facebook {
+        .facebook-link {
             margin-bottom: 40px;
         }
-        .insta {
+        .insta-link {
             margin-bottom: 40px;
         }
-        .youtube {
+        .youtube-link {
             margin-bottom: 74px;
         }
         .lang {
@@ -185,6 +215,7 @@ a {
         flex-shrink: 0;
         margin-bottom: 10px;
         flex-shrink: 0;
+        height: 55px;
         &__desc {
             font-weight: 600;
             font-size: 1em;
@@ -201,14 +232,13 @@ a {
         border-bottom: 1px solid #000;
         margin-bottom: 0.8em;
     }
-    .global-header {
-        font-weight: 700;
-        font-size: 2em;
-    }
-    .news {
+
+    .news,
+    .massmedia {
         display: flex;
     }
-    .news-block {
+    .news-block,
+    .massmedia-block {
         &__header {
             font-weight: 700;
             font-size: 1.125em;
@@ -220,11 +250,22 @@ a {
     }
     .pic-info {
         display: flex;
+
         &__data {
+           
             font-weight: 300;
             font-size: 0.875em;
+            margin-right: 13px;
+            &:after {
+                content: "";
+                display: inline-block;
+                margin-left: 13px;
+                height: 10px;
+                width: 1px;
+                background-color: #525252;
+                opacity: 1;
+            }
         }
-
         &__vertival-line {
             border-left: 1px solid #000000;
             height: 100%;
@@ -233,20 +274,21 @@ a {
             font-weight: 300;
             font-size: 0.875em;
         }
+        
     }
-    .link-white {
-        display: inline-block;
-        color: #000;
-        padding: 17px 51px 0px 51px;
-        height: 60px;
-        border: 1px solid #88bf1f;
-        font-weight: 400;
-        font-size: 18px;
-    }
-    .brands{
+
+    .brands {
+        background-color: #efefef;
         height: 203px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
+}
+.request {
+    height: 382px;
+    background-color: #efefef;
+}
+.writing{
+    display: flex;
 }
