@@ -49,17 +49,12 @@ a {
     background-color: #8abf42;
 }
 
-// .top-block::after{
-//         content: '';
-//         width: 100%;
-//         height: 540px;
-//         background-color: #525252;
-//         opacity: 1;
-//     }
+
 .top-block {
     background-image: url(/images/Rectangle5.2.png);
     background-size: cover;
     height: 540px;
+    margin-bottom: 55px;
 
     &__content {
         color: #fff;
@@ -197,6 +192,7 @@ a {
             font-weight: 300;
             font-size: 1.125em;
             margin-bottom: 105px;
+            margin-bottom: 100px;
         }
     }
 
@@ -223,6 +219,7 @@ a {
         &__info {
             font-weight: 300;
             font-size: 1em;
+            margin-bottom: 55px;
         }
         &:last-child {
             flex-direction: column;
@@ -236,12 +233,20 @@ a {
     .news,
     .massmedia {
         display: flex;
+        justify-content: space-between;
     }
     .news-block,
     .massmedia-block {
+        
+        &__img{
+            
+            width: 100%;
+           
+        }
         &__header {
             font-weight: 700;
             font-size: 1.125em;
+            
         }
         &__desc {
             font-weight: 300;
